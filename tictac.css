@@ -1,0 +1,67 @@
+body{
+	font-family: 'Rock Salt', cursive;
+	font-size: 20px;
+}
+body > div{
+	margin: 40px auto;
+	padding: 25px;
+	width: 250px;
+	border: 1px solid green;
+	box-shadow: 0 0 6px gray;
+}
+.option{
+	height: 50px;
+	padding:0;
+	vertical-align: middle;
+}
+.option div{
+	float: left;
+	box-sizing: border-box;
+	padding: 0;
+	width: 125px;
+	height: 100%;
+	text-align: center;
+}
+#X{
+	background-color: LIGHTSTEELBLUE;
+}
+#O{
+	background-color: ROSYBROWN;
+}
+table{
+	border-collapse: collapse;
+	width: 201px;
+	margin: 0 auto;
+}
+table, th, td{
+	vertical-align: middle;
+}
+th, td{
+	width: 65px;
+	height: 65px;
+	max-width: 65px;
+	max-height: 65px;
+	text-align:center;
+}
+#c1, #c2, #c4, #c5{
+	border-bottom: 2px solid gray;
+	border-right: 2px solid gray;
+}
+#c3, #c6{
+	border-bottom: 2px solid gray;
+}
+#c7, #c8{
+	border-right: 2px solid gray;
+}
+.newGame{
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #8FBC9A;
+}
+.newGame p{
+	margin: 0;
+	padding: 0;
+}
